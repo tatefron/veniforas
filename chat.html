@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>TITLE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/flatpickr.min.css">
+	<link rel="stylesheet" type="text/css" href="css/line-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/line-awesome-font-awesome.min.css">
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/mar.css">
+	<link rel="stylesheet" type="text/css" href="css/ser.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=2b89a605-5405-4785-a6bc-3ba5882d8f63&lang=ru_RU" type="text/javascript"></script>
+</head>
+
+
+<body>	
+
+	<div class="wrapper">		
+		<header>
+			<div class="container">
+				<div class="header-data">
+					<div class="logo">
+						<a href="index.html" title=""><img src="img/logo.svg" alt="">
+							<span>Veniforas</span>
+						</a>
+					</div><!--logo end-->
+					<nav class="mobile">
+						<ul>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-1.png" alt=""></span>
+									<span>Друзья</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-9.png" alt=""></span>
+									<span>Спортсмены</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-2.png" alt=""></span>
+									<span>Спортивные арены</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-3.png" alt=""></span>
+									<span>Лента мероприятий</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-4.png" alt=""></span>
+									<span>Самостоятельные тренировки</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-5.png" alt=""></span>
+									<span>Сообщения</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-6.png" alt=""></span>
+									<span>Настройки</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-7.png" alt=""></span>
+									<span>Обратная связь</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span><img src="img/menu-icons/menu-icons-8.png" alt=""></span>
+									<span>О нас</span>
+								</a>
+							</li>
+						</ul>
+					</nav><!--nav end-->
+					<nav class="desktop">
+						<ul>
+							<li class="active">
+								<a href="#" title="">
+									<span>Спортсмены</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span>Спортивные арены</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span>Лента мероприятий</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span>Обратная связь</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="">
+									<span>О нас</span>
+								</a>
+							</li>
+						</ul>
+						<div class="user-account">
+						<div class="user-info">
+							<img src="img/i_galaev 1.png" alt="">
+							<a href="#" title=""><span>Илья Галаев ГалаевГалаев</span></a>	
+						</div>
+						<div class="ed-opts">
+							<a href="#" title="" class="ed-opts-open"><i class="fas fa-chevron-down"></i></a>
+							<ul class="ed-options">
+								<li class="active"><a href="#" title="">Личный профиль</a></li>
+								<li><a href="#" title="">Мои друзья</a></li>
+								<li><a href="#" title="">Самостоятельные тренировки</a></li>
+								<li><a href="#" title="">Настройки</a></li>
+							</ul>
+						</div>
+					</nav><!--nav end-->	
+					<div class="menu-btn">
+						<a href="#" title="">
+							<!-- <i class="fa fa-bars"></i> -->
+						</a>
+					</div><!--menu-btn end-->
+				</div><!--header-data end-->
+			</div>
+		</header>
+		<section class="messages-page s-msg">
+			<div class="container">
+				<div class="messages-sec">
+					<div class="row">
+						<div class="col-lg-4 col-md-12 no-pdd col-msg-l active">
+							<div class="msgs-list">
+								<div class="msg-title">
+									<h3>Сообщения</h3>
+									<span class="s-msg_add-dia" data-toggle="modal" data-target="#modal-add-chat">+</span>
+								</div><!--msg-title end-->
+								<div class="messages-list">
+									<ul>
+										<li class="active">
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<img src="img/i_galaev 1.png" alt="">
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Приветствую! Вопрос по режиму...</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="s-usr">
+												<div class="s-usr_l">
+													<div class="s-usr_rnd">
+														<span>ВП</span>
+													</div>
+												</div>
+												<div class="s-usr_r">
+													<div class="s-usr_top"><h3 class="s-usr_ttl">Валерия Петровская</h3><span class="s-usr_tim">Только что</span></div>
+													<div class="s-usr_bot">
+														<p><span class="s-usr_act"></span>Видео</p>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div><!--messages-list end-->
+							</div><!--msgs-list end-->
+						</div>
+						<div class="col-lg-8 col-md-12 pd-right-none pd-left-none col-msg-r">
+							<div class="main-conversation-box">
+								<div class="message-bar-head">
+									<div class="hidden-lg"><div class="msg-back"><img src="img/arrow-left.svg" alt="">Все сообщения</div></div>
+									<div class="s-usr">
+										<div class="s-usr_l">
+											<div class="s-usr_rnd">
+												<span>ВП</span>
+											</div>
+										</div>
+										<div class="s-usr_r">
+											<div class="s-usr_top"><h3 class="s-usr_ttl"><a href="#">Валерия Петровская</a></h3><a href="#" class="s-usr_del">Удалить чат</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="messages-line">
+									<div class="main-message-box">
+										<div class="message-dt">
+											<div class="message-inner-dt img-bx">
+												<img src="images/resources/mt-img1.png" alt="">
+												<img src="images/resources/mt-img2.png" alt="">
+												<img src="images/resources/mt-img3.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="main-message-box st3">
+										<div class="message-dt st3">
+											<div class="message-inner-dt">
+												<p>Cras ultricies ligula.<img src="images/smley.png" alt=""></p>
+											</div>
+											<span>5 minutes ago</span>
+										</div>
+									</div>
+									<div class="main-message-box ta-right">
+										<div class="message-dt">
+											<div class="message-inner-dt">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+											</div>
+											<div class="clearfix"></div>
+											<span>Sat, Aug 23, 1:08 PM</span>
+										</div>
+									</div>
+									<div class="main-message-box st3">
+										<div class="message-dt st3">
+											<div class="message-inner-dt">
+												<p>Cras ultricies ligula.<img src="images/smley.png" alt=""></p>
+											</div>
+											<span>5 minutes ago</span>
+										</div>
+									</div>
+									<div class="main-message-box ta-right">
+										<div class="message-dt">
+											<div class="message-inner-dt">
+												<p>Привет!</p>
+											</div>
+										</div>
+									</div>
+									<div class="main-message-box ta-right">
+										<div class="message-dt">
+											<div class="message-inner-dt">
+												<p>Отличное видео!</p>
+											</div>
+											<div class="clearfix"></div>
+											<span>Sat, Aug 23, 1:08 PM</span>
+										</div>
+									</div>
+									<div class="main-message-box ta-right">
+										<div class="message-dt">
+											<div class="message-inner-dt">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+											</div>
+											<div class="clearfix"></div>
+											<span>Sat, Aug 23, 1:08 PM</span>
+										</div>
+									</div>
+									<div class="main-message-box st3">
+										<div class="message-dt st3">
+											<div class="message-inner-dt">
+												<p>Lorem ipsum dolor sit amet</p>
+											</div>
+											<span>2 minutes ago</span>
+										</div>
+									</div>
+									<div class="main-message-box ta-right">
+										<div class="message-dt">
+											<div class="message-inner-dt">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+											</div>
+											<div class="clearfix"></div>
+											<span>Sat, Aug 23, 1:08 PM</span>
+										</div>
+									</div>
+									<div class="main-message-box st3">
+										<div class="message-dt st3">
+											<div class="message-inner-dt">
+												<p>....</p>
+											</div>
+											<span>Typing...</span>
+										</div>
+									</div>
+								</div>
+								<div class="message-send-area">
+									<form>
+
+
+										<div class="message-send-top">
+											<div class="message-send-files"></div>
+										<div id="message-send-more" class="message-send-more">
+											<ul>
+												<li><a href="#" title=""><i class="fa fa-smile-o"></i></a></li>
+												<li><a href="#" title=""><i class="fa fa-camera"></i></a></li>
+												<li><a href="#" title=""><i class="fa fa-paperclip"></i></a></li>
+											</ul>
+										</div>
+
+											<div class="mf-field">
+												<input type="text" name="message" placeholder="Сообщение">
+											</div>
+											<button class="message-send-send" type="submit"></button>
+										</div>
+
+
+
+									</form>
+								</div><!--message-send-area end-->
+							</div><!--main-conversation-box end-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="modal-add-chat" class="m-modal f-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	    	<div class="modal_inn">
+	    		<div class="modal_con">
+
+					<form class="s-form s-form-chat s-in_form s-form-filter">
+						<div class="s-form_head">
+							<h2 class="modal_ttl modal_ttl-filter text-center">Создать чат</h2>
+						</div>
+						<div class="input-c">
+							<div class="input-c_t">
+								<div class="input-c_img">
+									<div class="input-c_img_b" style="background-image: url(img/resources/camera.svg);">
+										<input class="input-c_img_i" name="images[]" type="file">
+									</div>
+								</div>
+								<div class="input-c_inp">
+									<div class="input-t">
+										<label>
+										  <input type="text" placeholder="&nbsp;">
+										  <span class="input-t_l">Название*</span>
+										</label>
+									</div>
+								</div>
+								<div class="input-c_ico">
+									<div class="input-c_ico_i">
+										<a href="#" style="background-image: url(img/resources/smile.svg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="input-c_b">
+								<p class="input-c_txt">Введите название чата и, при желании, установите картинку</p>
+							</div>
+						</div>
+						<div class="input-u">
+							<p class="inputs-group_ttl">Галерея</p>
+							<ul>
+								<li>
+									<div class="s-usr">
+										<div class="s-usr_l">
+											<div class="s-usr_rnd">
+												<span>ВП</span>
+											</div>
+										</div>
+										<div class="s-usr_r">
+											<div class="s-usr_top"><h3 class="s-usr_ttl"><a href="#">Валерия Петровская</a></h3></div>
+											<div class="s-usr_bot">
+												<p>Россия, Москва | 4 км</p>
+											</div>
+										</div>
+										<div class="s-usr_c">
+											<label class="ch-bx">
+												<input class="ch-bx_i" type="checkbox">
+												<span class="ch-bx_c"></span>
+											</label>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="s-usr">
+										<div class="s-usr_l">
+											<div class="s-usr_rnd">
+												<span>ВП</span>
+											</div>
+										</div>
+										<div class="s-usr_r">
+											<div class="s-usr_top"><h3 class="s-usr_ttl"><a href="#">Валерия Петровская</a></h3></div>
+											<div class="s-usr_bot">
+												<p>Россия, Москва | 4 км</p>
+											</div>
+										</div>
+										<div class="s-usr_c">
+											<label class="ch-bx">
+												<input class="ch-bx_i" type="checkbox">
+												<span class="ch-bx_c"></span>
+											</label>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="s-usr">
+										<div class="s-usr_l">
+											<div class="s-usr_rnd">
+												<span>ВП</span>
+											</div>
+										</div>
+										<div class="s-usr_r">
+											<div class="s-usr_top"><h3 class="s-usr_ttl"><a href="#">Валерия Петровская</a></h3></div>
+											<div class="s-usr_bot">
+												<p>Россия, Москва | 4 км</p>
+											</div>
+										</div>
+										<div class="s-usr_c">
+											<label class="ch-bx">
+												<input class="ch-bx_i" type="checkbox">
+												<span class="ch-bx_c"></span>
+											</label>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="s-form_btn">
+							<button type="submit" class="bttn bttn-blue">Cоздать чат</button>
+						</div>
+					</form>
+
+	    		</div>
+				<button class="m-modal-close close" type="button"><img src="img/close.svg" alt=""></button>
+				<a href="#" class=""></a>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/flatpickr.min.js"></script>
+	<script src="lib/slick/slick.min.js"></script>
+	<script src="js/scrollbar.js"></script>
+	<script src="js/jquery.mCustomScrollbar.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.barrating.min.js"></script>
+	<script src="js/autosize.min.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="js/mar.js"></script>
+	<script src="js/ser.js"></script>
+
+</body>
+
+</html>
